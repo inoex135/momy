@@ -58,7 +58,7 @@ Create a new `momyfile.json` file like this:
   "src": "mongodb://localhost:27017/dbname",
   "dist": "mysql://root:password@localhost:3306/dbname",
   "prefix": "t_",
-  "case": "camel",
+  "fieldCase": "camel",
   "collections": {
     "collection1": {
       "_id": "number",
